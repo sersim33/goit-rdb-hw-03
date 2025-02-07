@@ -17,7 +17,7 @@ USE DZ3;
    LIMIT 10;
 
 4. SELECT COUNT(price) 
-   FROM mydb.products
+   FROM products
    WHERE price > 20 AND price < 100;
 
 5. SELECT supplier_id, 
